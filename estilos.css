@@ -1,0 +1,94 @@
+/* TRABAJO 1: selectores, unidades y colores */
+
+body {                          /* selector de etiqueta */
+  font-family: Elsie Fonts, sans-serif;
+  background-color: #eeeeee;    /* color hexadecimal */
+}
+
+#encabezado {                   /* selector de id */
+  background-color: rgb(60, 60, 60);   /* color rgb */
+  color: white;                 /* color por nombre */
+  text-align: center;
+  padding: 20px;
+}
+
+.caja {                         /* selector de clase */
+  background-color: white;
+  width: 80%;                   /* unidad en porcentaje */
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 16px;              /* unidad en pixeles */
+}
+
+h2, th {                        /* selector de grupo */
+  color: darkslategray;
+}
+
+a:hover {                       /* pseudoclase */
+  color: red;
+}
+
+/* TRABAJO 2: modelo de caja, posicion, texto e imagenes */
+
+.caja {
+  border: 3px solid gray;       /* borde de la caja */
+}
+
+.nombre {                       /* span */
+  font-weight: bold;
+  background-color: yellow;
+}
+
+#volver {                       /* posicionamiento */
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+h1 {                            /* texto y tipografia */
+  font-family: Georgia;
+  text-transform: uppercase;
+}
+
+img {                           /* imagenes */
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+h2 {
+  clear: left;
+}
+
+video {
+  width: 100%;
+}
+
+/* TRABAJO 3: listas, tablas y formularios */
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+input, textarea {
+  border: 2px solid gray;
+}
+
+/* COLOR FAVORITO DE CADA INTEGRANTE */
+.verde #encabezado { background-color: seagreen; }
+.blanco #encabezado { background-color: white; color: black; }
+.azul #encabezado { background-color: navy; }
